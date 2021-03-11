@@ -26,7 +26,7 @@ Phase 3: to deploy the project on the hardware. (Optional)
 
 ### Phase 2
 
-- [ ] Enhance tracking performance with OpenCV tracking algo.
+- [x] Enhance tracking performance with OpenCV tracking algo.
 - [ ] Fine tune the model via [Transfer learning](https://stackoverflow.com/a/48584180/10566022) and detect person only.
 
 ### Phase 3 [Deployment]
