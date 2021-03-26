@@ -2,16 +2,21 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15czITEKu8PnmlB5KRhmxiKVPXEc8ZeoQ?usp=sharing)
 
+## Current progress
+
+The notebook can identify the person in the video, keep track of the person and output a video with bounding box correctly. This fulfills the basic objective of the project.
+
+Multiple models and tracking algorithms have been tested, the best pair is `CenterNet MobileNetV2 FPN 512x512` with `CSRT tracker`.
+
 ## Overview
 
-For a practical Jetson use case, TensorRT support for the DL model is a must. As suggested on the Internet, `SSD mobilenet v2`  is [optimized for Jetson](https://github.com/dusty-nv/jetson-inference).
+For a practical Jetson use case, TensorRT support for the DL model is a must. As suggested on the Internet, `SSD mobilenet v2`  is [optimized for Jetson](https://github.com/dusty-nv/jetson-inference). But this project uses CenterNet, which is needed to be converted to TensorRT before deployment.
 
 Phase 1: intended to be done for our project. 
 
 Phase 2: to fine tune the model. (Optional)
 
 Phase 3: to deploy the project on the hardware. (Optional)
-
 
 
 ## Steps
