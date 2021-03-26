@@ -1,6 +1,8 @@
 # Jetson Tracking Project
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15czITEKu8PnmlB5KRhmxiKVPXEc8ZeoQ?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Yw1Ij500waudczDE5u0dDwghhsFHvjM2?usp=sharing)
+
+If you are interested in this notebook, please drop me an email! ykchong45(at)gmail(dot)com
 
 ## Current progress
 
